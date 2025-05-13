@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratica 10</title>
+  </head>
+  <body>
+    <h1>Prática com formulário</h1>
+    <p>Dados pessoais:</p>
+    <form action="processar-dados" method="post">
+      <label for="fname">Nome:</label><br />
+      <input type="text" id="fname" name="fname" value="" /><br />
+      <label for="lname">Apelidos:</label><br />
+      <input type="text" id="lname" name="lname" value="" /><br /><br />
+      <label for="number">Telefone:</label><br />
+      <input type="number" id="telemovel" value="" /><br /><br />
+      <label for="adress">Morada:</label><br />
+      <input type="text" /><br /><br />
+      <label for="mail">E-mail</label><br />
+      <input type="text" name="mail" id="mail" value="" /><br /><br />
+
+      <form>
+        <input type="checkbox" id="course1" name="course" value="Frontend" />
+        <label for="course1"> Curso Frontend</label><br />
+        <input type="checkbox" id="course2" name="course2" value="Java" />
+        <label for="course2"> Curso java</label><br />
+        <input type="checkbox" id="course3" name="course3" value="Fullstack" />
+        <label for="course3"> Curso Full-stack</label>
+      </form>
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
